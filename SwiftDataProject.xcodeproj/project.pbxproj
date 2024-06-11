@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5564F79B2C1827CB0093A8D7 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564F79A2C1827CB0093A8D7 /* UsersView.swift */; };
+		5564F79D2C1829FD0093A8D7 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564F79C2C1829FD0093A8D7 /* Job.swift */; };
 		557405DF2C17915800E33BA5 /* SwiftDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557405DE2C17915800E33BA5 /* SwiftDataProjectApp.swift */; };
 		557405E12C17915800E33BA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557405E02C17915800E33BA5 /* ContentView.swift */; };
 		557405E32C17915900E33BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557405E22C17915900E33BA5 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5564F79A2C1827CB0093A8D7 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		5564F79C2C1829FD0093A8D7 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		557405DB2C17915800E33BA5 /* SwiftDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		557405DE2C17915800E33BA5 /* SwiftDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectApp.swift; sourceTree = "<group>"; };
 		557405E02C17915800E33BA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +43,7 @@
 		557405D22C17915800E33BA5 = {
 			isa = PBXGroup;
 			children = (
+				5564F79C2C1829FD0093A8D7 /* Job.swift */,
 				557405DD2C17915800E33BA5 /* SwiftDataProject */,
 				557405DC2C17915800E33BA5 /* Products */,
 			);
@@ -58,6 +63,7 @@
 				557405DE2C17915800E33BA5 /* SwiftDataProjectApp.swift */,
 				557405EE2C1792A400E33BA5 /* EditUserView.swift */,
 				557405E02C17915800E33BA5 /* ContentView.swift */,
+				5564F79A2C1827CB0093A8D7 /* UsersView.swift */,
 				557405EC2C17921A00E33BA5 /* User.swift */,
 				557405E22C17915900E33BA5 /* Assets.xcassets */,
 				557405E42C17915900E33BA5 /* Preview Content */,
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5564F79B2C1827CB0093A8D7 /* UsersView.swift in Sources */,
+				5564F79D2C1829FD0093A8D7 /* Job.swift in Sources */,
 				557405E12C17915800E33BA5 /* ContentView.swift in Sources */,
 				557405EF2C1792A400E33BA5 /* EditUserView.swift in Sources */,
 				557405DF2C17915800E33BA5 /* SwiftDataProjectApp.swift in Sources */,
